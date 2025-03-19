@@ -1,0 +1,25 @@
+{
+  "name": "cypresstesting",
+  "version": "1.0.0",
+  "description": "Demonstrate knowledge using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run:chrome": "cypress run -b chrome",
+    "cy:run:firefox": "cypress run -b firefox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabriel033/CypressTesting.git"
+  },
+  "author": "José Gabriel Castillo García",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabriel033/CypressTesting/issues"
+  },
+  "homepage": "https://github.com/Gabriel033/CypressTesting#readme",
+  "devDependencies": {
+    "cypress": "^14.1.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
